@@ -24,9 +24,9 @@
 	</properties>
 
     <scm>
-        <connection>scm:hg:https://bitbucket.org/sbacoss/programmanagementclient</connection>
-        <developerConnection>scm:hg:https://bitbucket.org/sbacoss/programmanagementclient</developerConnection>
-        <url>https://bitbucket.org/sbacoss/programmanagementclient</url>
+        <connection>scm:hg:https://bitbucket.org/sbacoss/programmanagementclient_release</connection>
+        <developerConnection>scm:hg:https://bitbucket.org/sbacoss/programmanagementclient_release</developerConnection>
+        <url>https://bitbucket.org/sbacoss/programmanagementclient_release</url>
     </scm>
 
 
