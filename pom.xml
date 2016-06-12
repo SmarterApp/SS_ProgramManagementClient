@@ -24,9 +24,9 @@
 	</properties>
 
     <scm>
-        <connection>scm:hg:https://bitbucket.org/sbacoss/programmanagementclient_release</connection>
-        <developerConnection>scm:hg:https://bitbucket.org/sbacoss/programmanagementclient_release</developerConnection>
-        <url>https://bitbucket.org/sbacoss/programmanagementclient_release</url>
+        <connection>scm:git:https://github.com/SmarterApp/ProgramManagementClient</connection>
+        <developerConnection>scm:git:https://github.com/SmarterApp/ProgramManagementClient</developerConnection>
+        <url>https://github.com/SmarterApp/ProgramManagementClient</url>
     </scm>
 
 
