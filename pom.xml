@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>prog-mgmnt-client-parent</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>3.0.0-SNAPSHOT</version>
 	<name>Smarter Balanced #11 Program Management Client - Parent Project</name>
 	<packaging>pom</packaging>
 
@@ -21,15 +21,15 @@
 
 	<properties>
 		<mockito.version>1.9.5</mockito.version>
-		<sb11-shared-code.version>0.0.6-SNAPSHOT</sb11-shared-code.version>
+		<sb11-shared-code.version>3.0.0</sb11-shared-code.version>
 	</properties>
 
     <scm>
-        <connection>scm:git:https://github.com/SmarterApp/ProgramManagementClient</connection>
-        <developerConnection>scm:git:https://github.com/SmarterApp/ProgramManagementClient</developerConnection>
-        <url>https://github.com/SmarterApp/ProgramManagementClient</url>
+        <connection>scm:git:https://github.com/SmarterApp/SS_ProgramManagementClient.git</connection>
+        <developerConnection>scm:git:git://github.com/SmarterApp/SS_ProgramManagementClient.git</developerConnection>
+        <url>https://github.com/SmarterApp/SS_ProgramManagementClient</url>
+		<tag>HEAD</tag>
     </scm>
-
 
 	<!-- needed to bootstrap the parent -->
 	<pluginRepositories>
@@ -174,5 +174,13 @@
 		</dependency>
 
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>airdev-releases</name>
+			<url>https://airdev.jfrog.io/airdev/libs-releases-local</url>
+		</repository>
+	</distributionManagement>
 
 </project>
