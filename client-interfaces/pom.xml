@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.opentestsystem.shared</groupId>
     <artifactId>prog-mgmnt-client-parent</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>3.0.0</version>
   </parent>
   <artifactId>prog-mgmnt-client-interfaces</artifactId>
   <name>Smarter Balanced #11 Program Management - Client Interfaces</name>
