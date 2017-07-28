@@ -20,7 +20,7 @@
 
   <properties>
     <mockito.version>1.9.5</mockito.version>
-    <sb11-shared-code.version>3.1.0.RELEASE</sb11-shared-code.version>
+    <sb11-shared-code.version>3.1.2-SNAPSHOT</sb11-shared-code.version>
   </properties>
 
   <scm>
