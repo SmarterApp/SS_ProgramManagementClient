@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.opentestsystem.shared</groupId>
         <artifactId>prog-mgmnt-client-parent</artifactId>
-        <version>4.0.3-SNAPSHOT</version>
+        <version>4.0.3</version>
     </parent>
    
     <build>
