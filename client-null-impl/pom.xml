@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.opentestsystem.shared</groupId>
     <artifactId>prog-mgmnt-client-parent</artifactId>
-      <version>4.0.5-SNAPSHOT</version>
+      <version>4.0.5.RELEASE</version>
   </parent>
   <artifactId>prog-mgmnt-client-null-impl</artifactId>
   <name>Smarter Balanced #11 Program Management - Null Client</name>
