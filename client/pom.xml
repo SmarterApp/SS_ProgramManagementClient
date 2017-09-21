@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.opentestsystem.shared</groupId>
         <artifactId>prog-mgmnt-client-parent</artifactId>
-        <version>3.1.0.RELEASE</version>
+        <version>4.0.5.RELEASE</version>
     </parent>
    
     <build>
@@ -35,11 +35,13 @@
             <artifactId>prog-mgmnt-client-interfaces</artifactId>
             <version>${project.version}</version>
         </dependency>
-        
-         <dependency>
+        <dependency>
             <groupId>org.springframework.security.oauth</groupId>
             <artifactId>spring-security-oauth2</artifactId>
-            <version>2.0.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
         </dependency>
     </dependencies>
 
